@@ -28,7 +28,7 @@ class Action
     {
       foreach(self::$actions[$name][$p] as $callback)
       {
-        call_user_func($callback, $args);
+        call_user_func_array($callback, $args);
       }
     }
   }

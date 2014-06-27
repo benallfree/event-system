@@ -1,0 +1,14 @@
+{
+    "name": "benallfree/action_filter",
+    "description": "WordPress style action and filter framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Allfree",
+            "email": "ben@benallfree.com"
+        }
+    ],
+    "require": {
+
+    }
+}

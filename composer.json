@@ -10,5 +10,13 @@
     ],
     "require": {
 
+    },
+    "autoload": {
+      "psr-4": {
+        "BenAllfree\\": "src"
+      },
+      "files": [
+        "src/init.php"
+      ]
     }
 }

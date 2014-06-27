@@ -13,10 +13,10 @@ function register_filter($name, $callback, $priority) {
 
 function do_action() {
   $args = func_get_args();
-  call_user_func_array('Action::do', $args);
+  call_user_func_array('\BenAllfree\EventSystem\Action::_do', $args);
 }
 
 function apply_filters() {
   $args = func_get_args();
-  return call_user_func_array('Filter::apply', $args);
+  return call_user_func_array('\BenAllfree\EventSystem\Filter::apply', $args);
 }

@@ -1,5 +1,5 @@
 {
-    "name": "benallfree/action_filter",
+    "name": "benallfree/event-system",
     "description": "WordPress style action and filter framework",
     "license": "MIT",
     "authors": [
